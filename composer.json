@@ -3,5 +3,10 @@
     "description": "wxa",
     "type": "library",
     "license": "MIT",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Wxa\\": "src/"
+        }
+    }
 }
